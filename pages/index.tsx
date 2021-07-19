@@ -4,6 +4,7 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <div>
+
       <Head>
         <title>Teilor Web Developer</title>
       </Head>
@@ -16,6 +17,7 @@ export default function Home() {
         I'm <a href="https://github.com/tsbcylon">Teilor Souza Barcelos</a> and I'm programming this right now!
           </h3>
       </main>
+      
     </div>
   )
 }
