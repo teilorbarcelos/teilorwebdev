@@ -14,7 +14,7 @@ export default function Home() {
           Welcome to my portfolio!
         </h1>
         <h3>
-        I'm <a href="https://github.com/tsbcylon">Teilor Souza Barcelos</a> and I'm programming this right now!
+        I'm <a href="https://github.com/teilorbarcelos">Teilor Souza Barcelos</a> and I'm programming this right now!
           </h3>
       </main>
       
