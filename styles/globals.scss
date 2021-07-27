@@ -9,8 +9,10 @@
 
 html,
 body {
+  z-index: -2;
   width: 100%;
   background-color: $black-dark;
+  // background: transparent;
 }
 
 .border {

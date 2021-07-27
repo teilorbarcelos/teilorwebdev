@@ -3,6 +3,8 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import imgHero from '../public/hero.jpg'
+import logo from '../public/logo.svg'
+import square from '../public/square.svg'
 
 export default function Home() {
   return (
@@ -28,7 +30,12 @@ export default function Home() {
         </div>
         <div className="menu-logo">
         <Link href="/">
-            <a className="link">Teilor.</a>
+            <a className="logo">
+              <Image
+                src={logo}
+                alt="Logo of the site"
+              />
+            </a>
           </Link>
         </div>
         <div className="menu-right">
@@ -50,15 +57,20 @@ export default function Home() {
       {/* CONTAINER */}
 
       <section className="container hero">
-        <div className="container-item border">
+        <div className="container-item">
           <h1>Teilor S. Barcelos</h1>
-          <h3>Web Developer</h3>
-          <h3>Front & Back-end Programming</h3>
+          <h3 className="mask text-right">Web Developer</h3>
+          <h3 className="mask text-center">Front & Back-end Programming</h3>
           <Link href="#">
-            <a className="square">WORKS</a>
+            <a className="square">
+              <Image
+                src={square}
+                alt="Works button"
+              />
+            </a>
           </Link>
         </div>
-        <div className="container-item border">
+        <div className="container-item">
           <div className="img-hero">
             <Image
               src={imgHero}
