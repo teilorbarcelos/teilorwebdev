@@ -4,9 +4,18 @@
   box-sizing: border-box;
 }
 
+@import 'colors';
+@import 'typography';
+
 html,
 body {
-  font-family: 'Barlow Condensed', sans-serif;
   width: 100%;
-  background-color: #050607;
+  background-color: $black-dark;
 }
+
+.border {
+    border: 1px solid red;
+}
+
+@import 'spacing';
+@import 'layout';
