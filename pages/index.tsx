@@ -5,6 +5,8 @@ import Image from 'next/image'
 import imgHero from '../public/hero.png'
 import logo from '../public/logo.svg'
 import square from '../public/square.svg'
+import imgLetmeask from '../public/letmeask.png'
+import imgDevdotfinance from '../public/devdotfinance.png'
 
 export default function Home() {
   return (
@@ -119,7 +121,7 @@ export default function Home() {
       <section className="container hero">
         <div className="container-item">
           <h1>Teilor S. Barcelos</h1>
-          <h2 className="mask text-right mt-7">Web Developer</h2>
+          <h2 className="mask text-right mt-3">Web Developer</h2>
           <h2 className="mask text-center">Front & Back-end Programming</h2>
           <div className="flex-end pr-9">
             <Link href="#">
@@ -137,6 +139,46 @@ export default function Home() {
             <Image
               src={imgHero}
               alt="Picture of the author"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* SELECTED WORKS */}
+
+      <section className="list">
+        <div className="list-item">
+          <h2>Selected Works</h2>
+        </div>
+
+        <div className="list-item py-6">
+          <h5>01.</h5>
+          <Link href="#">
+            <a target="_blank">
+              <h3>Letmeask</h3>
+            </a>
+          </Link>
+          <div className="work-img">
+            <Image
+              src={imgLetmeask}
+              alt="Letmeask image"
+            />
+          </div>
+        </div>
+
+        <div className="bb-gray"></div>
+
+        <div className="list-item py-6">
+          <h5>02.</h5>
+          <Link href="#">
+            <a target="_blank">
+              <h3>Devdotfinance</h3>
+            </a>
+          </Link>
+          <div className="work-img">
+            <Image
+              src={imgDevdotfinance}
+              alt="Devdotfinance image"
             />
           </div>
         </div>
