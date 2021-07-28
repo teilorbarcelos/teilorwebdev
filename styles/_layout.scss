@@ -25,6 +25,12 @@
 
 // CONTAINER
 
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 .relative {
     position: relative;
 }
@@ -41,7 +47,7 @@
 }
 
 .hero {
-    height: 90vh;
+    height: 65vh;
 }
 
 @media screen and (max-width: 960px) {
@@ -93,8 +99,14 @@
 
 }
 
+@media screen and (max-width: 1200px) {
+    .svg-hero {
+        transform: scale(1.4) rotate(15deg);
+    }
+}
+
 @media screen and (max-width: 960px) {
     .svg-hero {
-        transform: scale(1.5) rotate(25deg);
+        transform: scale(1.7) rotate(25deg);
     }
 }

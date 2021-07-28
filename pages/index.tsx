@@ -119,16 +119,18 @@ export default function Home() {
       <section className="container hero">
         <div className="container-item">
           <h1>Teilor S. Barcelos</h1>
-          <h2 className="mask text-right">Web Developer</h2>
+          <h2 className="mask text-right mt-7">Web Developer</h2>
           <h2 className="mask text-center">Front & Back-end Programming</h2>
-          <Link href="#">
-            <a className="square">
-              <Image
-                src={square}
-                alt="Works button"
-              />
-            </a>
-          </Link>
+          <div className="flex-end pr-9">
+            <Link href="#">
+              <a className="square">
+                <Image
+                  src={square}
+                  alt="Works button"
+                />
+              </a>
+            </Link>
+          </div>
         </div>
         <div className="container-item">
           <div className="img-hero">
