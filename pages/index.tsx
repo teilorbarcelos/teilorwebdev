@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
-import imgHero from '../public/hero.jpg'
+import imgHero from '../public/hero.png'
 import logo from '../public/logo.svg'
 import square from '../public/square.svg'
 
