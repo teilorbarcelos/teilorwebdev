@@ -9,6 +9,9 @@ import imgLetmeask from '../public/letmeask.png'
 import imgDevdotfinance from '../public/devdotfinance.png'
 
 export default function Home() {
+
+  
+
   return (
     <div>
 
@@ -16,6 +19,10 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500&display=swap" rel="stylesheet" />
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js" integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg==" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js" integrity="sha512-DlTk2PLUinhBupE89kHOJTt11QqbRMQVlbb26XVDvp4D1kt0fRvQJslvZnTelRJHq6yK0tIPCR7cul8+9Blz0g==" />
+        
         <title>Teilor Web Developer</title>
       </Head>
 
@@ -126,10 +133,11 @@ export default function Home() {
           <div className="flex-end pr-9">
             <Link href="#">
               <a className="square">
-                <Image
+                {/* <Image
                   src={square}
                   alt="Works button"
-                />
+                /> */}
+                WORKS
               </a>
             </Link>
           </div>
@@ -153,7 +161,7 @@ export default function Home() {
 
         <div className="list-item py-6">
           <h5>01.</h5>
-          <Link href="#">
+          <Link href="https://letmeask-f38c5.web.app/">
             <a target="_blank">
               <h3>Letmeask</h3>
             </a>
@@ -170,7 +178,7 @@ export default function Home() {
 
         <div className="list-item py-6">
           <h5>02.</h5>
-          <Link href="#">
+          <Link href="https://devdotfinance.web.app/">
             <a target="_blank">
               <h3>Devdotfinance</h3>
             </a>
@@ -183,6 +191,15 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section className="get mt-9">
+        <h2>Get in touch</h2>
+        <h3 className="mask mt-9 text-center">tsb.developer87@gmail.com</h3>
+      </section>
+
+      {
+        
+      }
       
     </div>
   )

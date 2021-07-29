@@ -86,20 +86,6 @@ h6 {
     text-align: right;
 }
 
-.square {
-    display: inline-block;
-    margin-top: 56px;
-    font-size: 24px;
-    transform: rotate(35deg);
-    // border: 1px solid red;
-    transition: .5s ease;
-
-    &:hover {
-        opacity: .8;
-        transform: rotate(38deg);
-    }
-}
-
 @media screen and (max-width: 960px) {
     h1 {
         font-size: 52px;
