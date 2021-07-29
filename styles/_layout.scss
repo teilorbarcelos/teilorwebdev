@@ -11,18 +11,18 @@
     justify-content: space-between;
     padding: 48px 16px;
 
-    .menu-1, .menu-2, .menu-3, .menu-4, .menu-5 {
+    .menu-1, .menu-2, .menu-3 {
         opacity: 0;
     }
 }
 
 .logo {
     transition: .5s ease;
-
     &:hover {
         opacity: .8;
     }
 }
+
 
 @media screen and (max-width: 960px) {
     .menu-left, .menu-right {
@@ -74,6 +74,10 @@
     .container {
         flex-direction: column;
     }
+}
+
+.container-item div {
+    opacity: 0;
 }
 
 .container-item:nth-child(1){
@@ -176,6 +180,10 @@
 
 .bb-gray {
     border-bottom: 1px solid $black-light;
+}
+
+.list div {
+    opacity: 0;
 }
 
 .list-item {
