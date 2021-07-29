@@ -4,13 +4,37 @@ import Link from 'next/link'
 import Image from 'next/image'
 import imgHero from '../public/hero.png'
 import logo from '../public/logo.svg'
-import square from '../public/square.svg'
 import imgLetmeask from '../public/letmeask.png'
 import imgDevdotfinance from '../public/devdotfinance.png'
+import gsap from 'gsap'
+import ScrollTrigger from 'gsap/ScrollTrigger'
 
 export default function Home() {
 
-  
+  if(typeof window !== 'undefined'){
+
+    document.addEventListener('DOMContentLoaded', () => {
+      let tl = gsap.timeline()
+      tl
+        .to('.menu-1', {
+          opacity: 1,
+          delay: .5
+        })
+        .to('.menu-2', {
+          opacity: 1,
+        })
+        .to('.menu-3', {
+          opacity: 1,
+        })
+        .to('.menu-4', {
+          opacity: 1,
+        })
+        .to('.menu-5', {
+          opacity: 1,
+        })
+    })
+
+  }
 
   return (
     <div>
@@ -20,9 +44,6 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500&display=swap" rel="stylesheet" />
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js" integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg==" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js" integrity="sha512-DlTk2PLUinhBupE89kHOJTt11QqbRMQVlbb26XVDvp4D1kt0fRvQJslvZnTelRJHq6yK0tIPCR7cul8+9Blz0g==" />
-        
         <title>Teilor Web Developer</title>
       </Head>
 
@@ -31,15 +52,15 @@ export default function Home() {
       <header className="menu">
         <div className="menu-left">
           <Link href="#">
-            <a className="link">HOME</a>
+            <a className="link menu-1">HOME</a>
           </Link>
           <Link href="#">
-            <a className="link">ABOUT</a>
+            <a className="link menu-2">ABOUT</a>
           </Link>
         </div>
         <div className="menu-logo">
         <Link href="/">
-            <a className="logo">
+            <a className="logo menu-3">
               <Image
                 src={logo}
                 alt="Logo of the site"
@@ -49,10 +70,10 @@ export default function Home() {
         </div>
         <div className="menu-right">
           <Link href="#">
-            <a className="link">WORKS</a>
+            <a className="link menu-4">WORKS</a>
           </Link>
           <Link href="#">
-            <a className="link">GET IN TOUCH</a>
+            <a className="link menu-5">GET IN TOUCH</a>
           </Link>
         </div>
       </header>
@@ -196,10 +217,6 @@ export default function Home() {
         <h2>Get in touch</h2>
         <h3 className="mask mt-9 text-center">tsb.developer87@gmail.com</h3>
       </section>
-
-      {
-        
-      }
       
     </div>
   )
