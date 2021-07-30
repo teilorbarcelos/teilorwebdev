@@ -228,49 +228,55 @@ main {
     padding: 16px 24px;
 }
 
-// #square-1 {
-//     transform-origin: center center;
-//     transform-box: fill-box;
-//     animation: rotate1 3s ease infinite alternate;
-// }
+// BACKGROUND ANIMATIONS
 
-// #square-2 {
-//     transform-origin: center center;
-//     transform-box: fill-box;
-//     animation: rotate2 3s ease infinite alternate;
-// }
 
-// #square-3 {
-//     transform-origin: center center;
-//     transform-box: fill-box;
-//     animation: rotate1 2s ease infinite alternate;
-// }
 
-// #bg-hero-line1 {
-//     transform-origin: center center;
-//     transform-box: fill-box;
-//     animation: rotate3 6s ease infinite alternate;
-// }
-
-// #bg-hero-line2 {
-//     transform-origin: center center;
-//     transform-box: fill-box;
-//     animation: rotate4 5s ease infinite alternate;
-// }
-
-// #bg-hero-line3 {
-//     transform-origin: center center;
-//     transform-box: fill-box;
-//     animation: rotate5 8s ease infinite alternate;
-// }
-
-// #blur-1 {
-//     animation: opacity-change1 6s ease infinite alternate;
-// }
-
-// #blur-2 {
-//     animation: opacity-change1 8s ease infinite alternate;
-// }
+@media screen and (min-width: 960px) {
+    #square-1 {
+        transform-origin: center center;
+        transform-box: fill-box;
+        animation: rotate1 3s ease infinite alternate;
+    }
+    
+    #square-2 {
+        transform-origin: center center;
+        transform-box: fill-box;
+        animation: rotate2 3s ease infinite alternate;
+    }
+    
+    #square-3 {
+        transform-origin: center center;
+        transform-box: fill-box;
+        animation: rotate1 2s ease infinite alternate;
+    }
+    
+    #bg-hero-line1 {
+        transform-origin: center center;
+        transform-box: fill-box;
+        animation: rotate3 6s ease infinite alternate;
+    }
+    
+    #bg-hero-line2 {
+        transform-origin: center center;
+        transform-box: fill-box;
+        animation: rotate4 5s ease infinite alternate;
+    }
+    
+    #bg-hero-line3 {
+        transform-origin: center center;
+        transform-box: fill-box;
+        animation: rotate5 8s ease infinite alternate;
+    }
+    
+    #blur-1 {
+        animation: opacity-change1 6s ease infinite alternate;
+    }
+    
+    #blur-2 {
+        animation: opacity-change1 8s ease infinite alternate;
+    }
+}
 
 // FOR SQUARES
 
