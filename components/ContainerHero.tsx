@@ -13,11 +13,11 @@ export default function ContainerHero() {
                 y: 100,
               })
               .to('.container-item div', {
-                duration: 2,
+                duration: 1,
                 opacity: 1,
                 y: 0,
-                stagger: {each: .5},
-                delay: .5,
+                stagger: {each: .3},
+                delay: .3,
                 ease: 'power3.out',
               })
         })
