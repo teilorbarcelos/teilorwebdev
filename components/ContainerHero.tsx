@@ -10,10 +10,10 @@ export default function ContainerHero() {
             let tl = gsap.timeline()
             tl
               .from('.container-item div', {
-                y: 100,
+                y: 200,
               })
               .to('.container-item div', {
-                duration: 1,
+                duration: 2,
                 opacity: 1,
                 y: 0,
                 stagger: {each: .3},
