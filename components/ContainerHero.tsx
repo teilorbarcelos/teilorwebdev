@@ -11,7 +11,7 @@ export default function ContainerHero() {
             tl
               .from('.container-item div', {
                 y: 100,
-              }, '+=0.2')
+              })
               .to('.container-item div', {
                 duration: 2,
                 opacity: 1,
