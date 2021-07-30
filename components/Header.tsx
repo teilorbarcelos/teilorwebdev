@@ -18,7 +18,7 @@ export default function Header(){
                 duration: 1,
                 opacity: 1,
                 y: 0,
-                delay: .5,
+                delay: 1,
                 ease: 'power3.out',
             })
             .from('.menu-2', {

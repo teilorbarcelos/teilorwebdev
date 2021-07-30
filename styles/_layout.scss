@@ -96,6 +96,11 @@ main {
     flex-grow: 1;
     margin: 40px 0;
 
+    @media screen and (min-width: 960px) {
+        max-width: 40%;
+    }
+    
+
     justify-content: center;
     align-items: center;
 
@@ -357,7 +362,7 @@ main {
 @keyframes blur-change2 {
     0%{
         // opacity: 1;
-        transform: translate(0, 0);
+        transform: translate(0, -100);
     }
     100%{
         // opacity: .5;

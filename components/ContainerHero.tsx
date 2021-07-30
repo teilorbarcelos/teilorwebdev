@@ -16,8 +16,8 @@ export default function ContainerHero() {
                 duration: 2,
                 opacity: 1,
                 y: 0,
-                stagger: {each: .3},
-                delay: .3,
+                stagger: {each: .4},
+                delay: .7,
                 ease: 'power3.out',
               })
         })
@@ -30,10 +30,10 @@ export default function ContainerHero() {
             <h1>Teilor Souza Barcelos</h1>
           </div>
           <div>
-            <h2 className="mask text-right mt-3">Web Developer</h2>
+            <h5 className="mask text-center mt-5">Web Developer</h5>
           </div>
           <div>
-            <h2 className="mask text-center">Front & Back-end Programming</h2>
+            <h5 className="mask mt-4">Front & Back-end Programming</h5>
           </div>
           <div className="flex-end pr-9">
             <Link href="#">
@@ -44,12 +44,14 @@ export default function ContainerHero() {
           </div>
         </div>
         <div className="container-item">
-          <div className="img-hero">
+          <h5 className="mask">I am</h5>
+          <h4>A passionate about programing and a constant seeker by improvement of own skills</h4>
+          {/* <div className="img-hero">
             <Image
               src={imgHero}
               alt="Picture of the author"
             />
-          </div>
+          </div> */}
         </div>
       </section>
     )

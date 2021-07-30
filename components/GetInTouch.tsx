@@ -9,16 +9,16 @@ export default function GetInTouch() {
             gsap.registerPlugin(ScrollTrigger)
             gsap.fromTo('.get .get-item', {
                 opacity: 0,
-                y: 50,
+                y: 100,
             }, {
                 scrollTrigger: {
-                    trigger: '.get'
+                    trigger: '.get .get-item'
                 },
-                duration: 0.8,
+                duration: 1,
                 opacity: 1,
                 y: 0,
                 stagger: {each: .3},
-                delay: .3,
+                delay: 1,
             })
         })
     }
