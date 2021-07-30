@@ -139,8 +139,8 @@ main {
 }
 
 .bg-hero {
-    // opacity: 0;
-    transition: 2s;
+    opacity: 0;
+    // transition: 2s;
     position: fixed;
     top: 0;
     left: 0;
@@ -228,23 +228,23 @@ main {
     padding: 16px 24px;
 }
 
-#square-1 {
-    transform-origin: center center;
-    transform-box: fill-box;
-    animation: rotate1 3s ease infinite alternate;
-}
+// #square-1 {
+//     transform-origin: center center;
+//     transform-box: fill-box;
+//     animation: rotate1 3s ease infinite alternate;
+// }
 
-#square-2 {
-    transform-origin: center center;
-    transform-box: fill-box;
-    animation: rotate2 3s ease infinite alternate;
-}
+// #square-2 {
+//     transform-origin: center center;
+//     transform-box: fill-box;
+//     animation: rotate2 3s ease infinite alternate;
+// }
 
-#square-3 {
-    transform-origin: center center;
-    transform-box: fill-box;
-    animation: rotate1 2s ease infinite alternate;
-}
+// #square-3 {
+//     transform-origin: center center;
+//     transform-box: fill-box;
+//     animation: rotate1 2s ease infinite alternate;
+// }
 
 // #bg-hero-line1 {
 //     transform-origin: center center;
