@@ -220,6 +220,12 @@ main {
             border-radius: 8px;
         }
     }
+
+    @media screen and (max-width: 960px) {
+        .work-img {
+            display: none;
+        }
+    }
 }
 
 .get {
@@ -232,7 +238,7 @@ main {
 
 
 
-@media screen and (min-width: 960px) {
+// @media screen and (min-width: 960px) {
     #square-1 {
         transform-origin: center center;
         transform-box: fill-box;
@@ -242,13 +248,13 @@ main {
     #square-2 {
         transform-origin: center center;
         transform-box: fill-box;
-        animation: rotate2 3s ease infinite alternate;
+        animation: rotate2 6s ease infinite alternate;
     }
     
     #square-3 {
         transform-origin: center center;
         transform-box: fill-box;
-        animation: rotate1 2s ease infinite alternate;
+        animation: rotate6 5s ease infinite alternate;
     }
     
     #bg-hero-line1 {
@@ -269,32 +275,41 @@ main {
         animation: rotate5 8s ease infinite alternate;
     }
     
-    // #blur-1 {
-    //     animation: opacity-change1 6s ease infinite alternate;
-    // }
+    #blur-1 {
+        animation: blur-change1 8s ease infinite alternate;
+    }
     
-    // #blur-2 {
-    //     animation: opacity-change1 8s ease infinite alternate;
-    // }
-}
+    #blur-2 {
+        animation: blur-change2 6s ease infinite alternate;
+    }
+// }
 
 // FOR SQUARES
 
 @keyframes rotate1 {
     0%{
-        transform: rotate(0deg);
+        transform: rotate(0deg) translate(0, 0);
     }
     100%{
-        transform: rotate(30deg);;
+        transform: rotate(30deg) translate(0, -15px);
     }
 }
 
 @keyframes rotate2 {
     0%{
-        transform: rotate(0deg);
+        transform: rotate(0deg) translate(0, 0);
     }
     100%{
-        transform: rotate(-45deg);;
+        transform: rotate(-45deg) translate(0, 35px);
+    }
+}
+
+@keyframes rotate6 {
+    0%{
+        transform: rotate(0deg) translate(0, 0);
+    }
+    100%{
+        transform: rotate(30deg) translate(0, 35px);
     }
 }
 
@@ -305,7 +320,7 @@ main {
         transform: rotate(0deg);
     }
     100%{
-        transform: rotate(-2deg);;
+        transform: rotate(-2deg);
     }
 }
 
@@ -314,7 +329,7 @@ main {
         transform: rotate(0deg);
     }
     100%{
-        transform: rotate(2deg);;
+        transform: rotate(2deg);
     }
 }
 
@@ -323,17 +338,30 @@ main {
         transform: rotate(0deg);
     }
     100%{
-        transform: rotate(1deg);;
+        transform: rotate(1deg);
     }
 }
 
 // FOR BLURS
 
-@keyframes opacity-change1 {
+@keyframes blur-change1 {
     0%{
-        opacity: 1;
+        // opacity: 1;
+        transform: translate(0, 0);
     }
     100%{
-        opacity: .5;
+        // opacity: .5;
+        transform: translate(0, -250px);
+    }
+}
+
+@keyframes blur-change2 {
+    0%{
+        // opacity: 1;
+        transform: translate(0, 0);
+    }
+    100%{
+        // opacity: .5;
+        transform: translate(0, 150px);
     }
 }
