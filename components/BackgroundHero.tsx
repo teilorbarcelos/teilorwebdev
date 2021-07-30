@@ -2,18 +2,18 @@ import gsap from 'gsap'
 
 export default function BackgroundHero() {
     
-    if(typeof window !== 'undefined'){
-        document.addEventListener('DOMContentLoaded', () => {
-            let tl = gsap.timeline()
-            tl
-              .to('.bg-hero', {
-                // duration: 2,
-                opacity: 1,
-                delay: 2,
-                // ease: 'power3.out',
-              })
-        })
-    }
+    // if(typeof window !== 'undefined'){
+    //     document.addEventListener('DOMContentLoaded', () => {
+    //         let tl = gsap.timeline()
+    //         tl
+    //           .to('.bg-hero', {
+    //             // duration: 2,
+    //             opacity: 1,
+    //             delay: 2,
+    //             // ease: 'power3.out',
+    //           })
+    //     })
+    // }
 
     return (
 
