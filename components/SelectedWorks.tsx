@@ -39,11 +39,11 @@ export default function SelectedWorks() {
                 scrollTrigger: {
                     trigger: '#list'
                 },
-                duration: 0.5,
+                duration: 0.8,
                 opacity: 1,
                 y: 0,
-                stagger: {each: .2},
-                delay: .2,
+                stagger: {each: .3},
+                delay: .3,
             })
         })
     }

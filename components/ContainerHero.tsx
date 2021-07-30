@@ -11,12 +11,12 @@ export default function ContainerHero() {
             tl
               .from('.container-item div', {
                 y: 100,
-              })
+              }, '+=0.2')
               .to('.container-item div', {
                 duration: 2,
                 opacity: 1,
                 y: 0,
-                stagger: {each: .2},
+                stagger: {each: .5},
                 delay: .5,
                 ease: 'power3.out',
               })

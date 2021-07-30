@@ -13,7 +13,7 @@ export default function Header(){
             .from('.menu-1', {
                 opacity: 0,
                 y: -50,
-            })  
+            }, '+=0.8')  
             .to('.menu-1', {
                 duration: 1,
                 opacity: 1,
@@ -32,11 +32,11 @@ export default function Header(){
                 ease: 'power3.out',
             })
             .from('.menu-3', {
-                duration: .5,
                 opacity: 0,
                 y: -50,
             })
             .to('.menu-3', {
+                duration: .5,
                 opacity: 1,
                 y: 0,
                 ease: 'power3.out',
