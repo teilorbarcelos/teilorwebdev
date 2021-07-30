@@ -1,15 +1,22 @@
 @import 'colors';
 @import 'spacing';
 
+// MAIN
+
+main {
+    overflow: hidden;
+}
+
 // MENU
 
 .menu {
-    position: relative;
-    z-index: 99999;
+    position: fixed;
+    z-index: 999999;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 48px 16px;
+    padding: 24px 16px 16px;
+    background: linear-gradient(180deg, $black-dark 0%, rgba(0, 0, 0, 0) 100%);
 
     .menu-1, .menu-2, .menu-3 {
         opacity: 0;
@@ -59,7 +66,7 @@
 }
 
 .hero {
-    height: 72vh;
+    height: 100vh;
 }
 
 @media screen and (max-width: 960px) {
@@ -132,7 +139,9 @@
 }
 
 .bg-hero {
-    position: absolute;
+    opacity: 0;
+    transition: 2s;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -183,7 +192,7 @@
         a {
             z-index: 99999;
 
-            // hover made by javascript
+            // HOVER MADE BY JAVASCRIPT BECAUSE GSAP
             // &:hover {
             //     & + .work-img {
             //         transform: translate(-45%, -50%) translate3d(0, 0, 0);
@@ -217,4 +226,108 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 16px 24px;
+}
+
+#square-1 {
+    transform-origin: center center;
+    transform-box: fill-box;
+    animation: rotate1 3s ease infinite alternate;
+}
+
+#square-2 {
+    transform-origin: center center;
+    transform-box: fill-box;
+    animation: rotate2 3s ease infinite alternate;
+}
+
+#square-3 {
+    transform-origin: center center;
+    transform-box: fill-box;
+    animation: rotate1 2s ease infinite alternate;
+}
+
+#bg-hero-line1 {
+    transform-origin: center center;
+    transform-box: fill-box;
+    animation: rotate3 6s ease infinite alternate;
+}
+
+#bg-hero-line2 {
+    transform-origin: center center;
+    transform-box: fill-box;
+    animation: rotate4 5s ease infinite alternate;
+}
+
+#bg-hero-line3 {
+    transform-origin: center center;
+    transform-box: fill-box;
+    animation: rotate5 8s ease infinite alternate;
+}
+
+#blur-1 {
+    animation: opacity-change1 6s ease infinite alternate;
+}
+
+#blur-2 {
+    animation: opacity-change1 8s ease infinite alternate;
+}
+
+// FOR SQUARES
+
+@keyframes rotate1 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(30deg);;
+    }
+}
+
+@keyframes rotate2 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-45deg);;
+    }
+}
+
+// FOR LINES
+
+@keyframes rotate3 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-2deg);;
+    }
+}
+
+@keyframes rotate4 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(2deg);;
+    }
+}
+
+@keyframes rotate5 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(1deg);;
+    }
+}
+
+// FOR BLURS
+
+@keyframes opacity-change1 {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: .5;
+    }
 }

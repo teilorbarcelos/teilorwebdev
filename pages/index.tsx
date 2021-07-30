@@ -5,10 +5,11 @@ import BackgroundHero from '../components/BackgroundHero'
 import ContainerHero from '../components/ContainerHero'
 import SelectedWorks from '../components/SelectedWorks'
 import GetInTouch from '../components/GetInTouch'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
-    <div>
+    <main>
 
       {/* HEAD */}
 
@@ -39,7 +40,11 @@ export default function Home() {
       {/* GET IN TOUCH */}
 
       <GetInTouch />
-      
-    </div>
+
+      {/* FOOTER */}
+
+      <Footer />
+
+    </main>
   )
 }

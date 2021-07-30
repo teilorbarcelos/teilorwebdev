@@ -11,8 +11,11 @@ html,
 body {
   width: 100%;
   background-color: $black-dark;
-  // background: transparent;
   overflow-x: hidden;
+}
+
+.in-front {
+  z-index: 99999;
 }
 
 .border {

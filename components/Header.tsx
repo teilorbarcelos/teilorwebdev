@@ -26,7 +26,7 @@ export default function Header(){
                 y: -50,
             })
             .to('.menu-2', {
-                duration: .5,
+                duration: 1,
                 opacity: 1,
                 y: 0,
                 ease: 'power3.out',
@@ -36,7 +36,7 @@ export default function Header(){
                 y: -50,
             })
             .to('.menu-3', {
-                duration: .5,
+                duration: 1,
                 opacity: 1,
                 y: 0,
                 ease: 'power3.out',
