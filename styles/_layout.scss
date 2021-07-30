@@ -59,7 +59,7 @@
 }
 
 .hero {
-    height: 80vh;
+    height: 72vh;
 }
 
 @media screen and (max-width: 960px) {
@@ -97,20 +97,6 @@
         max-width: 300px;
     }
 }
-
-// .square {
-//     display: inline-block;
-//     margin-top: 56px;
-//     font-size: 24px;
-//     transform: rotate(35deg);
-//     // border: 1px solid red;
-//     transition: .5s ease;
-
-//     &:hover {
-//         opacity: .8;
-//         transform: rotate(38deg);
-//     }
-// }
 
 .square {
     display: inline-block;
@@ -160,10 +146,6 @@
     align-items: center;
 }
 
-// .svg-hero {
-
-// }
-
 @media screen and (max-width: 1200px) {
     .svg-hero {
         transform: scale(1.4) rotate(15deg);
@@ -179,11 +161,8 @@
 // SELECTED WORKS
 
 .bb-gray {
+    transition: 1s;
     border-bottom: 1px solid $black-light;
-}
-
-.list div {
-    opacity: 0;
 }
 
 .list-item {
@@ -205,18 +184,20 @@
     @media screen and (min-width: 960px) {
         a {
             z-index: 99999;
-            &:hover {
-                & + .work-img {
-                    transform: translate(-45%, -50%) translate3d(0, 0, 0);
-                    width: 720px;
-                    opacity: 1;
-                }
-            }
+
+            // hover made by javascript
+            // &:hover {
+            //     & + .work-img {
+            //         transform: translate(-45%, -50%) translate3d(0, 0, 0);
+            //         width: 720px;
+            //         opacity: 1;
+            //     }
+            // }
         }
     }
 
     .work-img {
-        width: 720px;
+        max-width: 720px;
         border-radius: 4px;
         position: absolute;
         top: 50%;
@@ -227,6 +208,10 @@
         transform: translate(-50%, -50%) translate3d(-1000px, 0, 0) skew(90deg);
         width: 0;
         opacity: 0;
+
+        img {
+            border-radius: 8px;
+        }
     }
 }
 

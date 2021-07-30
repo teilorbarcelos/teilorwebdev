@@ -11,26 +11,35 @@ export default function Header(){
             let tl = gsap.timeline()
             tl
             .from('.menu-1', {
+                opacity: 0,
                 y: -50,
             })  
             .to('.menu-1', {
+                duration: .5,
                 opacity: 1,
                 y: 0,
-                delay: .1,
+                delay: .2,
+                ease: 'power3.out',
             })
             .from('.menu-2', {
+                opacity: 0,
                 y: -50,
             })
             .to('.menu-2', {
+                duration: .5,
                 opacity: 1,
                 y: 0,
+                ease: 'power3.out',
             })
             .from('.menu-3', {
+                duration: .5,
+                opacity: 0,
                 y: -50,
             })
             .to('.menu-3', {
                 opacity: 1,
                 y: 0,
+                ease: 'power3.out',
             })
         })
 

@@ -9,21 +9,21 @@ export default function ContainerHero() {
         document.addEventListener('DOMContentLoaded', () => {
             let tl = gsap.timeline()
             tl
-                .from('.container-item div', {
+              .from('.container-item div', {
                 y: 50,
-                })
-                .to('.container-item div', {
-                transition: 0.5,
+              })
+              .to('.container-item div', {
+                duration: 2,
                 opacity: 1,
                 y: 0,
                 stagger: {each: .2},
-                delay: .1,
-                })
+                delay: .5,
+              })
         })
     }
 
     return (
-        <section className="container hero">
+        <section className="container hero mb-9">
         <div className="container-item">
           <div>
             <h1>Teilor S. Barcelos</h1>
