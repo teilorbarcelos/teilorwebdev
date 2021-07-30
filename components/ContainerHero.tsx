@@ -10,7 +10,7 @@ export default function ContainerHero() {
             let tl = gsap.timeline()
             tl
               .from('.container-item div', {
-                y: 50,
+                y: 100,
               })
               .to('.container-item div', {
                 duration: 2,
@@ -18,6 +18,7 @@ export default function ContainerHero() {
                 y: 0,
                 stagger: {each: .2},
                 delay: .5,
+                ease: 'power3.out',
               })
         })
     }
@@ -26,7 +27,7 @@ export default function ContainerHero() {
         <section className="container hero mb-9">
         <div className="container-item">
           <div>
-            <h1>Teilor S. Barcelos</h1>
+            <h1>Teilor Souza Barcelos</h1>
           </div>
           <div>
             <h2 className="mask text-right mt-3">Web Developer</h2>

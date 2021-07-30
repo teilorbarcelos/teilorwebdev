@@ -15,10 +15,10 @@ export default function Header(){
                 y: -50,
             })  
             .to('.menu-1', {
-                duration: .5,
+                duration: 1,
                 opacity: 1,
                 y: 0,
-                delay: .2,
+                delay: .5,
                 ease: 'power3.out',
             })
             .from('.menu-2', {
@@ -48,7 +48,7 @@ export default function Header(){
     return (
         <header className="menu">
         <div className="menu-left">
-          <Link href="#">
+          <Link href="/">
             <a className="link menu-3">HOME</a>
           </Link>
           <Link href="#">

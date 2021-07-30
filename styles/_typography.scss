@@ -75,7 +75,7 @@ h6 {
 
 .mask {
     background: linear-gradient(225deg, #2dc7ed, #538bf0);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
