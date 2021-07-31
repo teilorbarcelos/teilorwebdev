@@ -48,15 +48,15 @@ export default function Header(){
     return (
         <header className="menu">
         <div className="menu-left">
-          <Link href="/">
-            <a className="link menu-3">HOME</a>
+          <Link href="#hero">
+            <a className="link menu-3">TOP</a>
           </Link>
           <Link href="#">
-            <a className="link menu-2">ABOUT</a>
+            <a className="link menu-2">ABOUT ME</a>
           </Link>
         </div>
         <div className="menu-logo menu-1">
-        <Link href="/">
+        <Link href="#hero">
             <a className="logo">
               <Image
                 src={logo}
@@ -66,10 +66,10 @@ export default function Header(){
           </Link>
         </div>
         <div className="menu-right">
-          <Link href="#">
+          <Link href="#list">
             <a className="link menu-2">WORKS</a>
           </Link>
-          <Link href="#">
+          <Link href="#get">
             <a className="link menu-3">GET IN TOUCH</a>
           </Link>
         </div>

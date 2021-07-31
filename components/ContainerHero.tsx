@@ -24,7 +24,7 @@ export default function ContainerHero() {
     }
 
     return (
-        <section className="container hero mb-9">
+        <section className="container hero mb-9" id="hero">
         <div className="container-item">
           <div>
             <h1>Teilor Souza Barcelos</h1>
@@ -36,7 +36,7 @@ export default function ContainerHero() {
             <h5 className="mask mt-4">Front & Back-end Programming</h5>
           </div>
           <div className="flex-end pr-9">
-            <Link href="#">
+            <Link href="#list">
               <a className="square">
                 WORKS
               </a>
@@ -44,8 +44,12 @@ export default function ContainerHero() {
           </div>
         </div>
         <div className="container-item">
-          <h5 className="mask">I am</h5>
-          <h4>A passionate about programing and a constant seeker by improvement of own skills</h4>
+          <div>
+            <h5 className="mask">I am</h5>
+          </div>
+          <div>
+            <h4>A passionate about programing and a constant seeker by improvement of own skills</h4>
+          </div>
           {/* <div className="img-hero">
             <Image
               src={imgHero}

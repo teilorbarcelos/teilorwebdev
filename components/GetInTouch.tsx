@@ -24,7 +24,7 @@ export default function GetInTouch() {
     }
 
     return (
-        <section className="get mt-9">
+        <section className="get mt-9" id="get">
             <h2 className="get-item">Get in touch</h2>
             <h3 className="mask mt-9 text-center get-item">tsb.developer87@gmail.com</h3>
         </section>
