@@ -51,7 +51,7 @@ export default function Header(){
           <Link href="#hero">
             <a className="link menu-3">TOP</a>
           </Link>
-          <Link href="#">
+          <Link href="#about">
             <a className="link menu-2">ABOUT ME</a>
           </Link>
         </div>

@@ -6,6 +6,7 @@ import ContainerHero from '../components/ContainerHero'
 import SelectedWorks from '../components/SelectedWorks'
 import GetInTouch from '../components/GetInTouch'
 import Footer from '../components/Footer'
+import About from '../components/About'
 
 export default function Home() {
   return (
@@ -36,6 +37,10 @@ export default function Home() {
       {/* SELECTED WORKS */}
 
       <SelectedWorks />
+
+      {/* ABOUT */}
+
+      <About />
 
       {/* GET IN TOUCH */}
 

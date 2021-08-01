@@ -11,50 +11,7 @@ export default function BackgroundHero() {
                 duration: 2,
                 opacity: 1,
                 delay: 2,
-                // ease: 'power3.out',
               })
-
-            // animate squares
-            
-            // const square1 = document.getElementById('square-1')
-            // square1.style.transformOrigin = 'center center'
-            // square1.style.transformBox = 'fill-box'
-            // square1.style.animation = 'rotate1 3s ease infinite alternate'
-            
-            // const square2 = document.getElementById('square-2')
-            // square2.style.transformOrigin = 'center center'
-            // square2.style.transformBox = 'fill-box'
-            // square2.style.animation = 'rotate2 3s ease infinite alternate'
-            
-            // const square3 = document.getElementById('square-3')
-            // square3.style.transformOrigin = 'center center'
-            // square3.style.transformBox = 'fill-box'
-            // square3.style.animation = 'rotate1 2s ease infinite alternate'
-
-            // // animate lines
-            
-            // const line1 = document.getElementById('bg-hero-line1')
-            // line1.style.transformOrigin = 'center center'
-            // line1.style.transformBox = 'fill-box'
-            // line1.style.animation = 'rotate3 6s ease infinite alternate'
-            
-            // const line2 = document.getElementById('bg-hero-line2')
-            // line2.style.transformOrigin = 'center center'
-            // line2.style.transformBox = 'fill-box'
-            // line2.style.animation = 'rotate4 5s ease infinite alternate'
-            
-            // const line3 = document.getElementById('bg-hero-line3')
-            // line3.style.transformOrigin = 'center center'
-            // line3.style.transformBox = 'fill-box'
-            // line3.style.animation = 'rotate5 8s ease infinite alternate'
-
-            // // animate blurs
-
-            // const blur1 = document.getElementById('blur-1')
-            // blur1.style.animation = 'opacity-change1 6s ease infinite alternate'
-
-            // const blur2 = document.getElementById('blur-2')
-            // blur2.style.animation = 'opacity-change1 8s ease infinite alternate'
 
         })
     }

@@ -49,9 +49,9 @@ export default function SelectedWorks() {
     }
 
     return (
-        <section className="list" id="list">
+        <section className="list mt-9" id="list">
             <div className="list-item">
-            <h2>Selected Works</h2>
+                <h2>Selected Works</h2>
             </div>
 
             <div className="list-item py-6">

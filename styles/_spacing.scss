@@ -77,6 +77,10 @@ $gap-9: 128px;
 }
 .mt-9 {
   margin-top: $gap-9 !important;
+
+  @media screen and (max-width: 960px) {
+    margin-top: $gap-4 !important;
+  }
 }
 
 
@@ -501,4 +505,12 @@ $gap-9: 128px;
 .py-9 {
   padding-top: $gap-9 !important;
   padding-bottom: $gap-9 !important;
+}
+
+.gap-1 {
+  gap: $gap-1;
+}
+
+.gap-2 {
+  gap: $gap-2;
 }

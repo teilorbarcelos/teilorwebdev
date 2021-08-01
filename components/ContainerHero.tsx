@@ -24,7 +24,7 @@ export default function ContainerHero() {
     }
 
     return (
-        <section className="container hero mb-9" id="hero">
+        <section className="container hero" id="hero">
         <div className="container-item">
           <div>
             <h1>Teilor Souza Barcelos</h1>
@@ -47,15 +47,9 @@ export default function ContainerHero() {
           <div>
             <h5 className="mask">I am</h5>
           </div>
-          <div>
+          <div className="mt-3">
             <h4>A passionate about programing and a constant seeker by improvement of own skills</h4>
           </div>
-          {/* <div className="img-hero">
-            <Image
-              src={imgHero}
-              alt="Picture of the author"
-            />
-          </div> */}
         </div>
       </section>
     )

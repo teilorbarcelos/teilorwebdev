@@ -14,6 +14,14 @@ body {
   overflow-x: hidden;
 }
 
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
 .in-front {
   position: relative;
   z-index: 99999;
