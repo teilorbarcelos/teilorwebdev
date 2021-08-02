@@ -1,20 +1,20 @@
-import gsap from 'gsap'
+// import gsap from 'gsap'
 
 export default function BackgroundHero() {
     
-    if(typeof window !== 'undefined'){
-        document.addEventListener('DOMContentLoaded', () => {
+    // if(typeof window !== 'undefined'){
+    //     document.addEventListener('DOMContentLoaded', () => {
 
-            let tl = gsap.timeline()
-            tl
-              .to('.bg-hero', {
-                duration: 2,
-                opacity: 1,
-                delay: 2,
-              })
+    //         let tl = gsap.timeline()
+    //         tl
+    //           .to('.bg-hero', {
+    //             duration: 2,
+    //             opacity: 1,
+    //             delay: 2,
+    //           })
 
-        })
-    }
+    //     })
+    // }
 
     return (
 
