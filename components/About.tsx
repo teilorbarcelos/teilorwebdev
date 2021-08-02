@@ -13,7 +13,7 @@ export default function About() {
                 y: 50,
             }, {
                 scrollTrigger: {
-                    trigger: '#about'
+                    trigger: '#about div'
                 },
                 duration: 1,
                 opacity: 1,
