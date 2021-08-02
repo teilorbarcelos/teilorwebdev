@@ -29,10 +29,10 @@ export default function Home() {
               ease: Power2.easeOut,
           })
           .to('.menu-1', {
-              duration: 1.5,
+              duration: 1,
               y: -250,
               opacity: 0,
-              delay: 2,
+              delay: .5,
               ease: Power2.easeOut,
           })
           .to('.menu', {
@@ -85,7 +85,7 @@ export default function Home() {
       {/* HEAD */}
 
       <Head>
-        
+
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500&display=swap" rel="stylesheet" />
@@ -120,6 +120,9 @@ export default function Home() {
       {/* FOOTER */}
 
       <Footer />
+
+      {/* <!-- Go to www.addthis.com/dashboard to customize your tools --> */}
+      <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-608a9f9b7b91a1b0"></script>
 
     </main>
   )
