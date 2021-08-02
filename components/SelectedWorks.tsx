@@ -43,7 +43,7 @@ export default function SelectedWorks() {
                 opacity: 1,
                 y: 0,
                 stagger: {each: .3},
-                delay: .7,
+                delay: .3,
             })
         })
     }
