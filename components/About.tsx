@@ -1,6 +1,29 @@
 import Link from 'next/link'
+import gsap from 'gsap'
+import ScrollTrigger from 'gsap/dist/ScrollTrigger'
 
 export default function About() {
+    
+    if(typeof window !== 'undefined'){
+        document.addEventListener('DOMContentLoaded', () => {
+
+            gsap.registerPlugin(ScrollTrigger)
+            gsap.fromTo('#about div', {
+                opacity: 0,
+                y: 50,
+            }, {
+                scrollTrigger: {
+                    trigger: '#about'
+                },
+                duration: 1,
+                opacity: 1,
+                y: 0,
+                stagger: {each: .3},
+                delay: .7,
+            })
+        })
+    }
+
     return (
         <section className="about in-front mt-9" id="about">
             <div className="about-item">
@@ -17,7 +40,7 @@ export default function About() {
                         <a target="_blank">
                             <svg
                                 xmlns='http://www.w3.org/2000/svg'
-                                className='ionicon'
+                                className='ionicon right-on-hover right-on-hover'
                                 viewBox='0 0 512 512'>
                                 
                                 <defs>
@@ -40,7 +63,7 @@ export default function About() {
                 <div className="technologies-item">
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
-                        className='ionicon'
+                        className='ionicon right-on-hover'
                         viewBox='0 0 512 512'
                     >
                             
@@ -62,7 +85,7 @@ export default function About() {
                 <div className="technologies-item">
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
-                        className='ionicon'
+                        className='ionicon right-on-hover'
                         viewBox='0 0 512 512'
                     >
                             
@@ -84,7 +107,7 @@ export default function About() {
                 <div className="technologies-item">
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
-                        className='ionicon'
+                        className='ionicon right-on-hover'
                         viewBox='0 0 512 512'
                     >
                             
@@ -110,7 +133,7 @@ export default function About() {
                 <div className="technologies-item">
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
-                        className='ionicon'
+                        className='ionicon right-on-hover'
                         viewBox='0 0 512 512'
                     >
                             
@@ -132,7 +155,7 @@ export default function About() {
                 <div className="technologies-item">
                 <svg
                     xmlns='http://www.w3.org/2000/svg'
-                    className='ionicon'
+                    className='ionicon right-on-hover'
                     viewBox='0 0 512 512'
                 >
                         
@@ -158,7 +181,7 @@ export default function About() {
                 <div className="technologies-item">
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
-                        className='ionicon'
+                        className='ionicon right-on-hover'
                         viewBox='0 0 512 512'
                     >
                             
@@ -180,7 +203,7 @@ export default function About() {
                 <div className="technologies-item">
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
-                        className='ionicon'
+                        className='ionicon right-on-hover'
                         viewBox='0 0 512 512'
                     >
                             
@@ -207,7 +230,7 @@ export default function About() {
                 <div className="technologies-item">
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
-                        className='ionicon'
+                        className='ionicon right-on-hover'
                         viewBox='0 0 64 64'
                     >
                             
@@ -228,7 +251,7 @@ export default function About() {
                 <div className="technologies-item">
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
-                        className='ionicon'
+                        className='ionicon right-on-hover'
                         viewBox='0 0 108.758 144.133'
                         // width="108.758" height="144.133"
                     >

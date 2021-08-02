@@ -35,6 +35,7 @@ export default function Home() {
               ease: Power2.easeOut,
           })
           .to('.bg-hero', {
+            
             duration: 2,
             opacity: 1,
             // delay: 1,
@@ -49,7 +50,7 @@ export default function Home() {
           }, '-=1')
           .from('.menu-2', {
               y: -50,
-          }, '-=0.8')
+          })
           .to('.menu-2', {
               duration: 1,
               opacity: 1,
@@ -65,17 +66,17 @@ export default function Home() {
               y: 0,
               ease: Power2.easeOut,
           })
-          .from('.container-item div', {
-            y: 200,
-          }, '-=1')
-          .to('.container-item div', {
-            duration: 2,
-            opacity: 1,
-            y: 0,
-            stagger: {each: .4},
-            delay: .7,
-            ease: Power2.easeOut,
-          })
+          // .from('.container-item div', {
+          //   y: 200,
+          // }, '-=1')
+          // .to('.container-item div', {
+          //   duration: 2,
+          //   opacity: 1,
+          //   y: 0,
+          //   stagger: {each: .4},
+          //   delay: .7,
+          //   ease: Power2.easeOut,
+          // })
       })
 
   }

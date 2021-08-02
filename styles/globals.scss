@@ -14,6 +14,11 @@ body {
   overflow-x: hidden;
 }
 
+.right-on-hover:hover {
+  transition: 0.3s ease;
+  transform: translate(5px, 0);
+}
+
 .flex {
   display: flex;
 }
