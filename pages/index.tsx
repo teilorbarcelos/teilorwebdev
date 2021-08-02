@@ -19,6 +19,15 @@ export default function Home() {
         let tl = gsap.timeline()
 
         tl
+          .from('.menu-1', {
+              opacity: 0,
+          })
+          .to('.menu-1', {
+              duration: 1.3,
+              opacity: 1,
+              delay: 0.3,
+              ease: Power2.easeOut,
+          })
           .to('.menu-1', {
               duration: 1.5,
               y: -250,
@@ -66,17 +75,6 @@ export default function Home() {
               y: 0,
               ease: Power2.easeOut,
           })
-          // .from('.container-item div', {
-          //   y: 200,
-          // }, '-=1')
-          // .to('.container-item div', {
-          //   duration: 2,
-          //   opacity: 1,
-          //   y: 0,
-          //   stagger: {each: .4},
-          //   delay: .7,
-          //   ease: Power2.easeOut,
-          // })
       })
 
   }
@@ -87,6 +85,7 @@ export default function Home() {
       {/* HEAD */}
 
       <Head>
+        
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500&display=swap" rel="stylesheet" />

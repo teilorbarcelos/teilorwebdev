@@ -18,7 +18,7 @@ export default function ContainerHero() {
                 opacity: 1,
                 y: 0,
                 stagger: {each: .4},
-                delay: 4,
+                delay: 5,
                 ease: Power2.easeOut,
               })
         })
@@ -49,7 +49,7 @@ export default function ContainerHero() {
             <h5 className="mask right-on-hover">I am</h5>
           </div>
           <div className="mt-3">
-            <h4>A passionate about programing and a constant seeker by improvement of own skills</h4>
+            <h4>A passionate about programing and a constant seeker by improvement of your skills</h4>
           </div>
         </div>
       </section>

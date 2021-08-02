@@ -17,7 +17,6 @@ export default function Header(){
         <div className="menu-logo menu-1">
           <Link href="#hero">
             <a className="logo">
-              
               <Image
                 src={logo}
                 alt="Logo of the site"
