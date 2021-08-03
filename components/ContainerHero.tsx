@@ -2,25 +2,41 @@ import Image from 'next/image'
 import imgHero from '../public/hero.png'
 import Link from 'next/link'
 import gsap from 'gsap'
-import { Power2 } from 'gsap'
+import ScrollTrigger from 'gsap/dist/ScrollTrigger'
+// import { Power2 } from 'gsap'
 
 export default function ContainerHero() {
     
     if(typeof window !== 'undefined'){
         document.addEventListener('DOMContentLoaded', () => {
-            let tl = gsap.timeline()
-            tl
-              .from('.container-item div', {
-                opacity: 0,
-                y: 200,
-              })
-              .to('.container-item div', {
-                duration: 1,
-                opacity: 1,
-                y: 0,
-                stagger: {each: .4},
-                delay: 5,
-                ease: Power2.easeOut,
+            // let tl = gsap.timeline()
+            // tl
+            //   .from('.container-item div', {
+            //     opacity: 0,
+            //     y: 200,
+            //   })
+            //   .to('.container-item div', {
+            //     duration: 1,
+            //     opacity: 1,
+            //     y: 0,
+            //     stagger: {each: .4},
+            //     delay: 5,
+            //     ease: Power2.easeOut,
+            //   })
+
+              gsap.registerPlugin(ScrollTrigger)
+              gsap.fromTo('.container-item div', {
+                  opacity: 0,
+                  y: 200,
+              }, {
+                  scrollTrigger: {
+                      trigger: '.container-item div'
+                  },
+                  duration: 1,
+                  opacity: 1,
+                  y: 0,
+                  stagger: {each: .4},
+                  delay: 5,
               })
         })
     }
