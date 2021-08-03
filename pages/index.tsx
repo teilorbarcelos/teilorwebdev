@@ -19,28 +19,30 @@ export default function Home() {
         let tl = gsap.timeline()
 
         tl
+          // .from('.menu-1', {
+          // }, '+=0.5')
           .to('.menu-1', {
-              duration: 1.3,
-              delay: 0.7,
-              ease: Power2.easeOut,
+            duration: 1.3,
+            delay: 0.7,
+            ease: Power2.easeOut,
           })
           .to('.menu-1', {
-              duration: 1,
-              y: -250,
-              opacity: 0,
-              delay: .5,
-              ease: Power2.easeOut,
+            duration: 1,
+            y: -250,
+            opacity: 0,
+            delay: .5,
+            ease: Power2.easeOut,
           })
           .to('.menu-logo', {
             width: 40,
           })
           .to('.menu', {
-              // duration: 1,
-              height: 'initial',
-              justifyContent: 'space-between',
-              alignItems: 'initial',
-              // delay: 1,
-              ease: Power2.easeOut,
+            // duration: 1,
+            height: 'initial',
+            justifyContent: 'space-between',
+            alignItems: 'initial',
+            // delay: 1,
+            ease: Power2.easeOut,
           })
           .to('.bg-hero', {
             
@@ -50,29 +52,29 @@ export default function Home() {
             ease: Power2.easeOut,
           })
           .to('.menu-1', {
-              duration: 1,
-              y: 0,
-              opacity: 1,
-              delay: 1,
-              ease: Power2.easeOut,
+            duration: 1,
+            y: 0,
+            opacity: 1,
+            delay: 1,
+            ease: Power2.easeOut,
           }, '-=1')
           .from('.menu-2', {
-              y: -50,
+            y: -50,
           })
           .to('.menu-2', {
-              duration: 1,
-              opacity: 1,
-              y: 0,
-              ease: Power2.easeOut,
+            duration: 1,
+            opacity: 1,
+            y: 0,
+            ease: Power2.easeOut,
           })
           .from('.menu-3', {
-              y: -50,
+            y: -50,
           })
           .to('.menu-3', {
-              duration: 1,
-              opacity: 1,
-              y: 0,
-              ease: Power2.easeOut,
+            duration: 1,
+            opacity: 1,
+            y: 0,
+            ease: Power2.easeOut,
           })
       })
 
