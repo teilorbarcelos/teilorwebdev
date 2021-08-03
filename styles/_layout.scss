@@ -111,6 +111,17 @@ main {
 .container-item:nth-child(1){
     flex-grow: 3;
     margin: 40px 0;
+
+    .folow-me-panel {
+        @media screen and (max-width: 960px) {
+            justify-content: space-evenly;
+            margin-bottom: $gap-5;
+        }
+    }
+    
+    .folow-me {
+        width: 30px;
+    }
 }
 
 .container-item:nth-child(2){
@@ -275,6 +286,11 @@ main {
             .ionicon {
                 max-width: 30px;
             }
+        }
+
+        @media screen and (max-width: 640px) {
+            display: grid;
+            grid-template-columns: 50% 50%;
         }
     }
 }

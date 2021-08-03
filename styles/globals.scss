@@ -24,6 +24,12 @@ body {
   transform: translate(0, -3px);
 }
 
+.flex-column-on-mobile {
+  @media screen and (max-width: 960px) {
+    flex-direction: column;
+  }
+}
+
 .left {
   left: 0;
 }
