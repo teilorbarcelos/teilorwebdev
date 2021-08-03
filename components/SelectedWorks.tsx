@@ -39,10 +39,10 @@ export default function SelectedWorks() {
                 scrollTrigger: {
                     trigger: '#list'
                 },
-                duration: 1,
+                duration: .5,
                 opacity: 1,
                 y: 0,
-                stagger: {each: .3},
+                stagger: {each: .2},
                 delay: .3,
             })
         })

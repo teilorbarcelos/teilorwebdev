@@ -19,13 +19,9 @@ export default function Home() {
         let tl = gsap.timeline()
 
         tl
-          .from('.menu-1', {
-              opacity: 0,
-          })
           .to('.menu-1', {
               duration: 1.3,
-              opacity: 1,
-              delay: 0.3,
+              delay: 0.7,
               ease: Power2.easeOut,
           })
           .to('.menu-1', {
@@ -34,6 +30,9 @@ export default function Home() {
               opacity: 0,
               delay: .5,
               ease: Power2.easeOut,
+          })
+          .to('.menu-logo', {
+            width: 40,
           })
           .to('.menu', {
               // duration: 1,
