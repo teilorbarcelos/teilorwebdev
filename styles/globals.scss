@@ -16,7 +16,16 @@ body {
 
 .right-on-hover:hover {
   transition: 0.3s ease;
-  transform: translate(5px, 0);
+  transform: translate(3px, 0);
+}
+
+.up-on-hover:hover {
+  transition: 0.3s ease;
+  transform: translate(0, -3px);
+}
+
+.left {
+  left: 0;
 }
 
 .flex {

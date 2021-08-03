@@ -19,8 +19,6 @@ export default function Home() {
         let tl = gsap.timeline()
 
         tl
-          // .from('.menu-1', {
-          // }, '+=0.5')
           .to('.menu-1', {
             duration: 1.3,
             delay: 0.7,
@@ -37,18 +35,15 @@ export default function Home() {
             width: 40,
           })
           .to('.menu', {
-            // duration: 1,
             height: 'initial',
             justifyContent: 'space-between',
             alignItems: 'initial',
-            // delay: 1,
             ease: Power2.easeOut,
           })
           .to('.bg-hero', {
             
             duration: 2,
             opacity: 1,
-            // delay: 1,
             ease: Power2.easeOut,
           })
           .to('.menu-1', {

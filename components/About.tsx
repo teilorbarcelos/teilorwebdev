@@ -40,7 +40,7 @@ export default function About() {
                         <a target="_blank">
                             <svg
                                 xmlns='http://www.w3.org/2000/svg'
-                                className='ionicon right-on-hover right-on-hover'
+                                className='ionicon up-on-hover'
                                 viewBox='0 0 512 512'>
                                 
                                 <defs>
@@ -63,7 +63,7 @@ export default function About() {
                 <div className="technologies-item">
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
-                        className='ionicon right-on-hover'
+                        className='ionicon up-on-hover'
                         viewBox='0 0 512 512'
                     >
                             
@@ -85,7 +85,7 @@ export default function About() {
                 <div className="technologies-item">
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
-                        className='ionicon right-on-hover'
+                        className='ionicon up-on-hover'
                         viewBox='0 0 512 512'
                     >
                             
@@ -107,7 +107,7 @@ export default function About() {
                 <div className="technologies-item">
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
-                        className='ionicon right-on-hover'
+                        className='ionicon up-on-hover'
                         viewBox='0 0 512 512'
                     >
                             
@@ -133,7 +133,7 @@ export default function About() {
                 <div className="technologies-item">
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
-                        className='ionicon right-on-hover'
+                        className='ionicon up-on-hover'
                         viewBox='0 0 512 512'
                     >
                             
@@ -155,7 +155,7 @@ export default function About() {
                 <div className="technologies-item">
                 <svg
                     xmlns='http://www.w3.org/2000/svg'
-                    className='ionicon right-on-hover'
+                    className='ionicon up-on-hover'
                     viewBox='0 0 512 512'
                 >
                         
@@ -181,7 +181,7 @@ export default function About() {
                 <div className="technologies-item">
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
-                        className='ionicon right-on-hover'
+                        className='ionicon up-on-hover'
                         viewBox='0 0 512 512'
                     >
                             
@@ -203,7 +203,7 @@ export default function About() {
                 <div className="technologies-item">
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
-                        className='ionicon right-on-hover'
+                        className='ionicon up-on-hover'
                         viewBox='0 0 512 512'
                     >
                             
@@ -230,7 +230,7 @@ export default function About() {
                 <div className="technologies-item">
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
-                        className='ionicon right-on-hover'
+                        className='ionicon up-on-hover'
                         viewBox='0 0 64 64'
                     >
                             
@@ -251,7 +251,7 @@ export default function About() {
                 <div className="technologies-item">
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
-                        className='ionicon right-on-hover'
+                        className='ionicon up-on-hover'
                         viewBox='0 0 108.758 144.133'
                         // width="108.758" height="144.133"
                     >

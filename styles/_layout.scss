@@ -202,6 +202,10 @@ main {
     border-bottom: 1px solid $black-light;
 }
 
+.bb-gray2 {
+    border-bottom: 2px solid $black-light;
+}
+
 .list-item {
     max-width: 1200px;
     margin: 0 auto;
@@ -262,6 +266,17 @@ main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 16px 24px;
+
+    .folow-me {
+        display: flex;
+        justify-content: space-evenly;
+
+        .folow-me-item {
+            .ionicon {
+                max-width: 30px;
+            }
+        }
+    }
 }
 
 .about {

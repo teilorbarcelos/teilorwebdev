@@ -1,5 +1,3 @@
-import Image from 'next/image'
-import logo from '../public/logo.svg'
 import Link from 'next/link'
 
 export default function Header(){
@@ -15,7 +13,7 @@ export default function Header(){
           </Link>
         </div>
         <div className="menu-logo menu-1">
-          <Link href="#hero">
+          <Link href="/">
             <a className="logo">
 
               <svg viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -41,10 +39,6 @@ export default function Header(){
               </defs>
               </svg>
 
-              {/* <Image
-                src={logo}
-                alt="Logo of the site"
-              /> */}
             </a>
           </Link>
         </div>
