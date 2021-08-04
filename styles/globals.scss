@@ -30,6 +30,12 @@ body {
   }
 }
 
+.only-mobile {
+  @media screen and (min-width: 960px) {
+    display: none;
+  }
+}
+
 .left {
   left: 0;
 }

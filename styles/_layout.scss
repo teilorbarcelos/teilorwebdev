@@ -23,6 +23,10 @@ main {
     .menu-2, .menu-3 {
         opacity: 0;
     }
+
+    @media screen and (max-width: 960px) {
+        padding: 32px 16px 16px !important;
+    }
 }
 
 .logo {
