@@ -11,6 +11,7 @@ import Laravel from './svg/Laravel'
 import Python from './svg/Python'
 import Typescript from './svg/Typescript'
 import Debian from './svg/Debian'
+import Nextjs from './svg/Nextjs'
 
 export default function About() {
 
@@ -52,6 +53,11 @@ export default function About() {
 
                         </a>
                     </Link>
+                </div>
+                <div title="NextJs" className="technologies-item">
+
+                    <Nextjs />
+
                 </div>
                 <div title="Html5" className="technologies-item">
 
