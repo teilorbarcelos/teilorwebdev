@@ -1,5 +1,4 @@
-import Image from 'next/image'
-import logo from '../public/logo.svg'
+import Logo from '../components/svg/Logo'
 
 export default function Footer() {
     return (
@@ -13,11 +12,9 @@ export default function Footer() {
             <div className="bb-gray2 my-5"></div>
 
             <div className="my-5">
-                <Image
-                    src={logo}
-                    alt="Logo of the site"
-                    width={40}
-                />
+
+                <Logo />
+
             </div>
 
             <h6 className="mask">Developed by Teilor Souza Barcelos &copy; 2021</h6>

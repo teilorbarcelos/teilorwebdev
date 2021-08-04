@@ -285,6 +285,10 @@ main {
     .folow-me {
         display: flex;
         justify-content: space-evenly;
+        
+        a h6 {
+            transform: translate(0, -10%);
+        }
 
         .folow-me-item {
             .ionicon {
@@ -309,6 +313,7 @@ main {
         justify-content: space-between;
 
         .technologies-item {
+            padding: 24px 0;
             width: 70px;
         }
 
@@ -324,6 +329,12 @@ main {
         .ionicon {
             max-width: 70px;
         }
+    }
+}
+
+footer {
+    svg {
+        width: 40px;
     }
 }
 
