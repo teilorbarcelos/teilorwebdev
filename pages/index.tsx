@@ -41,7 +41,6 @@ export default function Home() {
             ease: Power2.easeOut,
           })
           .to('.bg-hero', {
-            
             duration: 2,
             opacity: 1,
             ease: Power2.easeOut,
@@ -50,9 +49,9 @@ export default function Home() {
             duration: 1,
             y: 0,
             opacity: 1,
-            delay: 1,
+            delay: .5,
             ease: Power2.easeOut,
-          }, '-=1')
+          }, '-=0.5')
           .from('.menu-2', {
             y: -50,
           })

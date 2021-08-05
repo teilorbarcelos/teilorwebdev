@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/dist/ScrollTrigger'
+// import Image from 'next/image'
+// import myPhoto from '../public/hero.png'
 import Github from './svg/Github'
 import Html5 from './svg/Html5'
 import Javascript from './svg/Javascript'
@@ -30,7 +32,7 @@ export default function About() {
                 opacity: 1,
                 y: 0,
                 stagger: { each: .3 },
-                delay: .7,
+                delay: .5,
             })
         })
     }
@@ -40,8 +42,15 @@ export default function About() {
             <div className="about-item">
                 <h2>About Me</h2>
             </div>
-            <div className="about-item">
+            <div className="about-item flex">
                 <h4 className="mask mt-3">Hello, I'm Teilor Souza Barcelos, Brazilian, resident in Criciúma - SC, a truly passionate about technology, web development & front and back-end programming.</h4>
+                <div className="my-photo">
+
+                    <img title="Hello!" className=" up-on-hover" src='https://avatars.githubusercontent.com/u/80414833?v=4' />
+
+                </div>
+            </div>
+            <div className="about-item">
                 <h3 className="mt-3">Some technologies that I know:</h3>
             </div>
             <div className="technologies mt-3">
@@ -69,7 +78,7 @@ export default function About() {
                     <Javascript />
 
                 </div>
-                <div title="Reactjs" className="technologies-item">
+                <div title="ReactJs" className="technologies-item">
 
                     <Reactjs />
 
