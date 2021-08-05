@@ -85,7 +85,7 @@ export default function ContainerHero() {
           <h5 className="mask right-on-hover">I am</h5>
         </div>
         <div className="mt-3">
-          <h4>A constant student of programming who loves what does, always looking for self-improvement and the search for new technologies</h4>
+          <h4>A constant student of programming who loves what does, always looking for self-improvement and the learning new technologies</h4>
         </div>
       </div>
     </section>
