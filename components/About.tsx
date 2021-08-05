@@ -1,8 +1,6 @@
 import Link from 'next/link'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/dist/ScrollTrigger'
-// import Image from 'next/image'
-// import myPhoto from '../public/hero.png'
 import Github from './svg/Github'
 import Html5 from './svg/Html5'
 import Javascript from './svg/Javascript'
@@ -14,6 +12,15 @@ import Python from './svg/Python'
 import Typescript from './svg/Typescript'
 import Debian from './svg/Debian'
 import Nextjs from './svg/Nextjs'
+import Figma from './svg/Figma'
+import Nodejs from './svg/Nodejs'
+import Php from './svg/php'
+import Java from './svg/Java'
+import Mysql from './svg/Mysql'
+import Firebase from './svg/Firebase'
+import Csharp from './svg/Csharp'
+import Flutter from './svg/Flutter'
+import Elixir from './svg/Elixir'
 
 export default function About() {
 
@@ -63,54 +70,99 @@ export default function About() {
                         </a>
                     </Link>
                 </div>
-                <div title="NextJs" className="technologies-item">
+                <div title="NextJs" onClick={(e) => alert(e.currentTarget.title)} className="technologies-item">
 
                     <Nextjs />
 
                 </div>
-                <div title="Html5" className="technologies-item">
+                <div title="Html5" onClick={(e) => alert(e.currentTarget.title)} className="technologies-item">
 
                     <Html5 />
 
                 </div>
-                <div title="Javascript" className="technologies-item">
+                <div title="Javascript" onClick={(e) => alert(e.currentTarget.title)} className="technologies-item">
                     
                     <Javascript />
 
                 </div>
-                <div title="ReactJs" className="technologies-item">
+                <div title="ReactJs" onClick={(e) => alert(e.currentTarget.title)} className="technologies-item">
 
                     <Reactjs />
 
                 </div>
-                <div title="Sass" className="technologies-item">
+                <div title="Sass" onClick={(e) => alert(e.currentTarget.title)} className="technologies-item">
 
                     <Sass />
 
                 </div>
-                <div title="Vuejs" className="technologies-item">
+                <div title="Vuejs" onClick={(e) => alert(e.currentTarget.title)} className="technologies-item">
 
                     <Vuejs />
 
                 </div>
-                <div title="Laravel" className="technologies-item">
+                <div title="Laravel" onClick={(e) => alert(e.currentTarget.title)} className="technologies-item">
 
                     <Laravel />
 
                 </div>
-                <div title="Python" className="technologies-item">
+                <div title="Python" onClick={(e) => alert(e.currentTarget.title)} className="technologies-item">
 
                     <Python />
 
                 </div>
-                <div title="Typescript" className="technologies-item">
+                <div title="Typescript" onClick={(e) => alert(e.currentTarget.title)} className="technologies-item">
 
                     <Typescript />
 
                 </div>
-                <div title="Debian" className="technologies-item">
+                <div title="Debian" onClick={(e) => alert(e.currentTarget.title)} className="technologies-item">
 
                     <Debian />
+
+                </div>
+                <div title="Figma" onClick={(e) => alert(e.currentTarget.title)} className="technologies-item">
+
+                    <Figma />
+
+                </div>
+                <div title="NodeJs" onClick={(e) => alert(e.currentTarget.title)} className="technologies-item">
+
+                    <Nodejs />
+
+                </div>
+                <div title="PHP" onClick={(e) => alert(e.currentTarget.title)} className="technologies-item">
+
+                    <Php />
+
+                </div>
+                <div title="Java" onClick={(e) => alert(e.currentTarget.title)} className="technologies-item">
+
+                    <Java />
+
+                </div>
+                <div title="C#" onClick={(e) => alert(e.currentTarget.title)} className="technologies-item">
+
+                    <Csharp />
+
+                </div>
+                <div title="MySQL" onClick={(e) => alert(e.currentTarget.title)} className="technologies-item">
+
+                    <Mysql />
+
+                </div>
+                <div title="Firebase" onClick={(e) => alert(e.currentTarget.title)} className="technologies-item">
+
+                    <Firebase />
+
+                </div>
+                <div title="Flutter" onClick={(e) => alert(e.currentTarget.title)} className="technologies-item">
+
+                    <Flutter />
+
+                </div>
+                <div title="Elixir" onClick={(e) => alert(e.currentTarget.title)} className="technologies-item">
+
+                    <Elixir />
 
                 </div>
 

@@ -338,6 +338,7 @@ main {
         justify-content: space-between;
 
         .technologies-item {
+            display: flex;
             padding: 24px 0;
             width: 70px;
         }
