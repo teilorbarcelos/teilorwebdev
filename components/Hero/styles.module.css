@@ -1,0 +1,94 @@
+.hero {
+  height: 100vh;
+  gap: 64px;
+}
+
+.containerLeft {
+  flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 40px 0;
+  padding-top: 40px;
+}
+
+.containerRight {
+  flex-grow: 1;
+  margin: 40px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.folowMe {
+  width: 30px;
+}
+
+.folowMe:hover {
+  transition: 0.3s ease;
+  transform: translateY(-3px);
+}
+
+.job1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.job2 {
+  margin-top: 32px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialPanel {
+  display: flex;
+  margin-top: 48px;
+  gap: 16px;
+}
+
+.squareButton {
+  align-self: flex-end;
+  padding-right: 72px;
+}
+
+.iAm:hover {
+  transition: 0.3s ease;
+  transform: translateX(3px);
+}
+
+.aboutMe {
+  margin-top: 24px;
+}
+
+@media screen and (max-width: 960px) {
+  .hero{
+    height: auto;
+  }
+
+  .folow-me-panel {
+    justify-content: space-evenly;
+    margin-bottom: var(--gap-5);
+  }
+
+  .social {
+    flex-direction: column;
+  }
+
+  .socialPanel {
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+  }
+
+  .squareButton {
+    align-self: center;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .containerRight {
+    max-width: 40%;
+  }
+}

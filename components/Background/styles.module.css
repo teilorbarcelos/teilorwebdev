@@ -1,0 +1,24 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .svgHero {
+      transform: scale(1.4) rotate(15deg);
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .svgHero {
+      transform: scale(1.7) rotate(25deg);
+  }
+}

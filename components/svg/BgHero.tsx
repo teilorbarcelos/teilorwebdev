@@ -1,6 +1,10 @@
-export default function BgHero() {
+interface Props {
+    className: string
+}
+
+export default function BgHero({ className }: Props) {
     return (
-        <svg className="svg-hero" viewBox="0 0 2400 1350" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className={className} viewBox="0 0 2400 1350" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="bg-hero" clip-path="url(#clip0)">
                 <g id="blur-2" filter="url(#filter0_f)">
                     <path d="M1768.22 604.445C1724.11 584.706 1673.56 601.579 1341.78 604.445C1010.01 607.31 1722.27 757.892 1768.22 755.982C1814.17 754.072 1812.34 624.183 1768.22 604.445Z" fill="#00AAE0" />

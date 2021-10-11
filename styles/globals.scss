@@ -1,33 +1,19 @@
+@import 'colors';
+@import 'typography';
+@import 'spacing';
+@import 'layout';
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-@import 'colors';
-@import 'typography';
-
 html,
 body {
   width: 100%;
   background-color: $black-dark;
   overflow-x: hidden;
-}
-
-.right-on-hover:hover {
-  transition: 0.3s ease;
-  transform: translate(3px, 0);
-}
-
-.up-on-hover:hover {
-  transition: 0.3s ease;
-  transform: translate(0, -3px);
-}
-
-.flex-column-on-mobile {
-  @media screen and (max-width: 960px) {
-    flex-direction: column;
-  }
 }
 
 .only-mobile {
@@ -57,5 +43,148 @@ body {
     border: 1px solid red;
 }
 
-@import 'spacing';
-@import 'layout';
+@keyframes kadabra {
+  0%, 10% {
+    fill-opacity: 0;
+    stroke-dasharray: 0 100;
+  }
+  60% {
+    fill-opacity: 0;
+    stroke-dasharray: 100 0;
+  }
+  100% {
+    fill-opacity: 1;
+    stroke-dasharray: 100 0;
+  }
+}
+
+// BACKGROUND ANIMATIONS
+
+#square-1 {
+  transform-origin: center center;
+  transform-box: fill-box;
+  animation: rotate1 3s ease infinite alternate;
+}
+
+#square-2 {
+  transform-origin: center center;
+  transform-box: fill-box;
+  animation: rotate2 6s ease infinite alternate;
+}
+
+#square-3 {
+  transform-origin: center center;
+  transform-box: fill-box;
+  animation: rotate6 5s ease infinite alternate;
+}
+
+#bg-hero-line1 {
+  transform-origin: center center;
+  transform-box: fill-box;
+  animation: rotate3 6s ease infinite alternate;
+}
+
+#bg-hero-line2 {
+  transform-origin: center center;
+  transform-box: fill-box;
+  animation: rotate4 5s ease infinite alternate;
+}
+
+#bg-hero-line3 {
+  transform-origin: center center;
+  transform-box: fill-box;
+  animation: rotate5 8s ease infinite alternate;
+}
+
+@media screen and (min-width: 960px) {
+  
+  #blur-1 {
+      animation: blur-change1 8s ease infinite alternate;
+  }
+  
+  #blur-2 {
+      animation: blur-change2 6s ease infinite alternate;
+  }
+}
+
+// FOR SQUARES
+
+@keyframes rotate1 {
+  0%{
+      transform: rotate(0deg) translate(0, 0);
+  }
+  100%{
+      transform: rotate(30deg) translate(0, -15px);
+  }
+}
+
+@keyframes rotate2 {
+  0%{
+      transform: rotate(0deg) translate(0, 0);
+  }
+  100%{
+      transform: rotate(-45deg) translate(0, 35px);
+  }
+}
+
+@keyframes rotate6 {
+  0%{
+      transform: rotate(0deg) translate(0, 0);
+  }
+  100%{
+      transform: rotate(30deg) translate(0, 35px);
+  }
+}
+
+// FOR LINES
+
+@keyframes rotate3 {
+  0%{
+      transform: rotate(0deg);
+  }
+  100%{
+      transform: rotate(-2deg);
+  }
+}
+
+@keyframes rotate4 {
+  0%{
+      transform: rotate(0deg);
+  }
+  100%{
+      transform: rotate(2deg);
+  }
+}
+
+@keyframes rotate5 {
+  0%{
+      transform: rotate(0deg);
+  }
+  100%{
+      transform: rotate(1deg);
+  }
+}
+
+// FOR BLURS
+
+@keyframes blur-change1 {
+  0%{
+      // opacity: 1;
+      transform: translate(0, 0);
+  }
+  100%{
+      // opacity: .5;
+      transform: translate(0, -250px);
+  }
+}
+
+@keyframes blur-change2 {
+  0%{
+      // opacity: 1;
+      transform: translate(0, -100);
+  }
+  100%{
+      // opacity: .5;
+      transform: translate(0, 150px);
+  }
+}

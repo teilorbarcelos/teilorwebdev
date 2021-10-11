@@ -1,0 +1,37 @@
+.menu {
+  position: fixed;
+  z-index: 999999;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 16px 16px;
+  background: linear-gradient(180deg, var(--black-dark) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.menuLogo {
+  width: 40px;
+}
+
+.logo {
+  transition: 0.3s;
+}
+
+.logo:hover {
+  opacity: .8;
+}
+
+.svg {
+  animation: kadabra 2.5s ease forwards;
+}
+
+@media screen and (max-width: 960px) {
+  .menu {
+    padding: 32px 16px 16px !important;
+    justify-content: center !important;
+    padding: 8px 16px;
+  }
+
+  .menuLeft, .menuRight {
+    display: none;
+  }
+}

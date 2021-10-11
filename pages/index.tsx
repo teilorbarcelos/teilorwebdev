@@ -1,81 +1,17 @@
 import React from 'react'
 import Head from 'next/head'
 import Header from '../components/Header'
-import BackgroundHero from '../components/BackgroundHero'
-import ContainerHero from '../components/ContainerHero'
-import SelectedWorks from '../components/SelectedWorks'
+import Hero from '../components/Hero'
 import GetInTouch from '../components/GetInTouch'
 import Footer from '../components/Footer'
 import About from '../components/About'
-import gsap from 'gsap'
-import { Power2 } from 'gsap'
+import Background from '../components/Background'
+import globals from '../styles/globals.module.css'
+import Works from '../components/Works'
 
 export default function Home() {
-
-  if(typeof window !== 'undefined'){
-
-      document.addEventListener('DOMContentLoaded', () => {
-          
-        let tl = gsap.timeline()
-
-        tl
-          .to('.menu-1', {
-            duration: 1.3,
-            delay: 0.7,
-            ease: Power2.easeOut,
-          })
-          .to('.menu-1', {
-            duration: 1,
-            y: -250,
-            opacity: 0,
-            delay: .5,
-            ease: Power2.easeOut,
-          })
-          .to('.menu-logo', {
-            width: 40,
-          })
-          .to('.menu', {
-            height: 'initial',
-            justifyContent: 'space-between',
-            alignItems: 'initial',
-            ease: Power2.easeOut,
-          })
-          .to('.bg-hero', {
-            duration: 2,
-            opacity: 1,
-            ease: Power2.easeOut,
-          })
-          .to('.menu-1', {
-            duration: 1,
-            y: 0,
-            opacity: 1,
-            delay: .5,
-            ease: Power2.easeOut,
-          }, '-=0.5')
-          .from('.menu-2', {
-            y: -50,
-          })
-          .to('.menu-2', {
-            duration: 1,
-            opacity: 1,
-            y: 0,
-            ease: Power2.easeOut,
-          })
-          .from('.menu-3', {
-            y: -50,
-          })
-          .to('.menu-3', {
-            duration: 1,
-            opacity: 1,
-            y: 0,
-            ease: Power2.easeOut,
-          })
-      })
-
-  }
-
   return (
-    <main>
+    <main className={globals.main}>
 
       {/* HEAD */}
 
@@ -84,25 +20,25 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500&display=swap" rel="stylesheet" />
-        
+
         <title>Teilor Web Developer</title>
       </Head>
 
       {/* HEADER */}
-      
+
       <Header />
 
       {/* BACKGROUND HERO */}
 
-      <BackgroundHero />
+      <Background />
 
       {/* CONTAINER */}
 
-      <ContainerHero />
+      <Hero />
 
       {/* SELECTED WORKS */}
 
-      <SelectedWorks />
+      <Works />
 
       {/* ABOUT */}
 
