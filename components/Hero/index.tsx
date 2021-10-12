@@ -59,7 +59,7 @@ export default function Hero() {
           <h5 className={`${globals.mask} ${styles.iAm}`}>I am</h5>
         </div>
         <div className={styles.aboutMe}>
-          <h4>A constant programming student who loves what he does, always looking for self-improvement and learning new technologies.</h4>
+          <h4>A constant programming student who loves what does, always looking for self-improvement and learning new technologies.</h4>
         </div>
       </div>
     </section>

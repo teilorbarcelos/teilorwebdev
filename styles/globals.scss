@@ -3,6 +3,34 @@
 @import 'spacing';
 @import 'layout';
 
+:root {
+  // colors
+  --black-normal: #0d0e10;
+  --black-dark: #050607;
+  --black-light: #15171a;
+
+  --white-normal: #f5f7f7;
+  --white-dark: #edeff0;
+  --white-light: #fafcfc;
+
+  --blue-normal: #2dc7ed;
+  --blue-dark: #15aed4;
+  --blue-light: #4ddcff;
+
+  --gray-1: #777;
+
+  // measurements
+  --gap-1: 8px;
+  --gap-2: 16px;
+  --gap-3: 24px;
+  --gap-4: 32px;
+  --gap-5: 48px;
+  --gap-6: 64px;
+  --gap-7: 72px;
+  --gap-8: 96px;
+  --gap-9: 128px;
+}
+
 * {
   padding: 0;
   margin: 0;
