@@ -2,6 +2,7 @@ import Link from 'next/link'
 
 import styles from './styles.module.css'
 import globals from '../../styles/globals.module.css'
+
 import Github from '../svg/Github'
 import Html5 from '../svg/Html5'
 import Javascript from '../svg/Javascript'
