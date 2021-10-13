@@ -12,6 +12,12 @@
 
 .menuLogo {
   width: 40px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menuLogo:hover {
+  opacity: 0.8;
 }
 
 .logo {
