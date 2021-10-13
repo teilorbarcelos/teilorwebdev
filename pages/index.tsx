@@ -1,5 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
+import ScrollReveal from '../components/ScrollReveal'
+
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
@@ -34,23 +36,33 @@ export default function Home() {
 
       {/* CONTAINER */}
 
-      <Hero />
+      <ScrollReveal>
+        <Hero />
+      </ScrollReveal>
 
       {/* SELECTED WORKS */}
 
-      <Works />
+      <ScrollReveal>
+        <Works />
+      </ScrollReveal>
 
       {/* ABOUT */}
 
-      <About />
+      <ScrollReveal>
+        <About />
+      </ScrollReveal>
 
       {/* GET IN TOUCH */}
 
-      <Contact />
+      <ScrollReveal>
+        <Contact />
+      </ScrollReveal>
 
       {/* FOOTER */}
 
-      <Footer />
+      <ScrollReveal>
+        <Footer />
+      </ScrollReveal>
 
       {/* <!-- Go to www.addthis.com/dashboard to customize your tools --> */}
       <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-608a9f9b7b91a1b0"></script>

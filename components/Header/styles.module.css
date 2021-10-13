@@ -26,10 +26,8 @@
   height: 100%;
   background: var(--black-dark);
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: var(--gap-5);
   opacity: 0;
   /* transform: translateY(-100vh); */
 
