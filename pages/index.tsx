@@ -2,12 +2,12 @@ import React from 'react'
 import Head from 'next/head'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
-import GetInTouch from '../components/GetInTouch'
 import Footer from '../components/Footer'
 import About from '../components/About'
 import Background from '../components/Background'
 import globals from '../styles/globals.module.css'
 import Works from '../components/Works'
+import Contact from '../components/Contact'
 
 export default function Home() {
   return (
@@ -46,7 +46,7 @@ export default function Home() {
 
       {/* GET IN TOUCH */}
 
-      <GetInTouch />
+      <Contact />
 
       {/* FOOTER */}
 

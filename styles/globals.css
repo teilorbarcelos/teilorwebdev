@@ -1,10 +1,5 @@
-@import 'colors';
-@import 'typography';
-@import 'spacing';
-@import 'layout';
-
 :root {
-  // colors
+  /* colors */
   --black-normal: #0d0e10;
   --black-dark: #050607;
   --black-light: #15171a;
@@ -19,7 +14,7 @@
 
   --gray-1: #777;
 
-  // measurements
+  /* measurements */
   --gap-1: 8px;
   --gap-2: 16px;
   --gap-3: 24px;
@@ -40,35 +35,68 @@
 html,
 body {
   width: 100%;
-  background-color: $black-dark;
+  scroll-behavior: smooth;
+  background-color: var(--black-dark);
   overflow-x: hidden;
 }
 
-.only-mobile {
-  @media screen and (min-width: 960px) {
-    display: none;
+/* tipography */
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: var(--white-normal);
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 88px;
+  line-height: 100%;
+}
+
+h2 {
+  font-size: 72px;
+  line-height: 120%;
+}
+
+h3 {
+  font-size: 56px;
+  line-height: 130%;
+}
+
+h4 {
+  font-size: 40px;
+  line-height: 140%;
+}
+
+h5 {
+  font-size: 32px;
+  line-height: 150%;
+}
+
+h6 {
+  font-size: 24px;
+  line-height: 160%;
+}
+
+@media screen and (max-width: 960px) {
+  h1 {
+      font-size: 52px;
   }
-}
 
-.left {
-  left: 0;
-}
+  h2 {
+      font-size: 48px;
+  }
 
-.flex {
-  display: flex;
-}
+  h3 {
+      font-size: 32px;
+  }
 
-.space-between {
-  justify-content: space-between;
-}
-
-.in-front {
-  position: relative;
-  z-index: 99999;
-}
-
-.border {
-    border: 1px solid red;
+  h6 {
+      font-size: 16px;
+  }
 }
 
 @keyframes kadabra {
@@ -86,7 +114,7 @@ body {
   }
 }
 
-// BACKGROUND ANIMATIONS
+/* BACKGROUND ANIMATIONS */
 
 #square-1 {
   transform-origin: center center;
@@ -135,7 +163,7 @@ body {
   }
 }
 
-// FOR SQUARES
+/* FOR SQUARES */
 
 @keyframes rotate1 {
   0%{
@@ -164,7 +192,7 @@ body {
   }
 }
 
-// FOR LINES
+/* FOR LINES */
 
 @keyframes rotate3 {
   0%{
@@ -193,26 +221,26 @@ body {
   }
 }
 
-// FOR BLURS
+/* FOR BLURS */
 
 @keyframes blur-change1 {
   0%{
-      // opacity: 1;
+      /* opacity: 1; */
       transform: translate(0, 0);
   }
   100%{
-      // opacity: .5;
+      /* opacity: .5; */
       transform: translate(0, -250px);
   }
 }
 
 @keyframes blur-change2 {
   0%{
-      // opacity: 1;
+      /* opacity: 1; */
       transform: translate(0, -100);
   }
   100%{
-      // opacity: .5;
+      /* opacity: .5; */
       transform: translate(0, 150px);
   }
 }

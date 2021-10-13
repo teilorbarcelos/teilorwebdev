@@ -11,36 +11,36 @@ export default function Java() {
             <path d="M140.975 510.025C233.015 515.917 374.352 506.756 377.7 463.206C377.7 463.206 371.265 479.715 301.634 492.827C223.076 507.61 126.186 505.884 68.7197 496.41C68.7211 496.408 80.4838 506.146 140.975 510.025Z" fill="url(#paint7_linearJava)" />
             <defs>
                 <linearGradient id="paint0_linearJava" x1="367" y1="-14" x2="3.0005" y2="510" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="white" />
-                    <stop offset="1" stop-color="#666666" />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="#666666" />
                 </linearGradient>
                 <linearGradient id="paint1_linearJava" x1="375" y1="-29.9999" x2="-17.0004" y2="502" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="white" />
-                    <stop offset="1" stop-color="#666666" />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="#666666" />
                 </linearGradient>
                 <linearGradient id="paint2_linearJava" x1="455" y1="-34" x2="-25" y2="518" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="white" />
-                    <stop offset="1" stop-color="#666666" />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="#666666" />
                 </linearGradient>
                 <linearGradient id="paint3_linearJava" x1="375" y1="-14" x2="1.0004" y2="514" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="white" />
-                    <stop offset="1" stop-color="#666666" />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="#666666" />
                 </linearGradient>
                 <linearGradient id="paint4_linearJava" x1="375" y1="-1.99995" x2="-9.00001" y2="510" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="white" />
-                    <stop offset="1" stop-color="#666666" />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="#666666" />
                 </linearGradient>
                 <linearGradient id="paint5_linearJava" x1="431" y1="-42" x2="-33" y2="510" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="white" />
-                    <stop offset="1" stop-color="#666666" />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="#666666" />
                 </linearGradient>
                 <linearGradient id="paint6_linearJava" x1="446.999" y1="0.999926" x2="-9.00051" y2="534" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="white" />
-                    <stop offset="1" stop-color="#666666" />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="#666666" />
                 </linearGradient>
                 <linearGradient id="paint7_linearJava" x1="378" y1="-5.99994" x2="-17" y2="512" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="white" />
-                    <stop offset="1" stop-color="#666666" />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="#666666" />
                 </linearGradient>
             </defs>
         </svg>
