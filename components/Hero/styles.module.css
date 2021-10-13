@@ -1,4 +1,11 @@
 .hero {
+  position: relative;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   gap: 64px;
 }

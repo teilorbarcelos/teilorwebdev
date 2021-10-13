@@ -1,10 +1,11 @@
 interface Props {
     className?: string
+    onClick?: () => void
 }
 
-export default function Logo({ className }: Props) {
+export default function Logo({ className, onClick }: Props) {
     return (
-        <svg className={className} viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg onClick={onClick} className={className} viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="28.5" y="15.5" width="14" height="54" fill="url(#paint0_linearLogo)" stroke="url(#paint1_linearLogo)" />
             <rect x="0.5" y="0.5" width="69" height="14" fill="url(#paint2_linearLogo)" stroke="url(#paint3_linearLogo)" />
             <defs>

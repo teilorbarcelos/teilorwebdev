@@ -2,17 +2,6 @@
   overflow: hidden;
 }
 
-.container {
-  position: relative;
-  z-index: 99999;
-  max-width: 1220px;
-  margin: 0 auto;
-  padding: 24px 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .link {
   padding: 8px 24px;
   font-size: 24px;

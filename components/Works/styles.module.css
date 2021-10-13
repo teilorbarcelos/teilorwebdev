@@ -47,7 +47,7 @@
 
 @media screen and (min-width: 960px) {
   .work a {
-      z-index: 99999;
+      z-index: 1;
   }
 
   .workImg.show {
