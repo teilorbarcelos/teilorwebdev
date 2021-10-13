@@ -1,6 +1,5 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Head from 'next/head'
-import ScrollReveal from '../components/ScrollReveal'
 
 import Header from '../components/Header'
 import Hero from '../components/Hero'
@@ -12,6 +11,7 @@ import Works from '../components/Works'
 import Contact from '../components/Contact'
 
 export default function Home() {
+
   return (
     <main className={globals.main}>
 
@@ -36,33 +36,23 @@ export default function Home() {
 
       {/* CONTAINER */}
 
-      <ScrollReveal>
-        <Hero />
-      </ScrollReveal>
+      <Hero />
 
       {/* SELECTED WORKS */}
 
-      <ScrollReveal>
-        <Works />
-      </ScrollReveal>
+      <Works />
 
       {/* ABOUT */}
 
-      <ScrollReveal>
-        <About />
-      </ScrollReveal>
+      <About />
 
       {/* GET IN TOUCH */}
 
-      <ScrollReveal>
-        <Contact />
-      </ScrollReveal>
+      <Contact />
 
       {/* FOOTER */}
 
-      <ScrollReveal>
-        <Footer />
-      </ScrollReveal>
+      <Footer />
 
       {/* <!-- Go to www.addthis.com/dashboard to customize your tools --> */}
       <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-608a9f9b7b91a1b0"></script>
