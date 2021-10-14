@@ -14,10 +14,10 @@ export default function Hero() {
           <h1>Teilor Souza Barcelos</h1>
         </div>
         <div>
-          <h5 className={`${styles.job1} ${globals.mask}`}>Web Developer</h5>
+          <h5 data-aos="fade-right" className={`${styles.job1} ${globals.mask}`}>Web Developer</h5>
         </div>
         <div>
-          <h5 className={`${styles.job2} ${globals.mask}`}>Front & Back-end Programming</h5>
+          <h5 data-aos="fade-right" className={`${styles.job2} ${globals.mask}`}>Front & Back-end Programming</h5>
         </div>
         <div className={styles.social}>
           <div className={styles.socialPanel}>
@@ -59,7 +59,7 @@ export default function Hero() {
           <h5 className={`${globals.mask} ${styles.iAm}`}>I am</h5>
         </div>
         <div className={styles.aboutMe}>
-          <h4>A constant programming student who loves what does, always looking for self-improvement and learning new technologies.</h4>
+          <h4 data-aos="fade-left">A constant programming student who loves what does, always looking for self-improvement and learning new technologies.</h4>
         </div>
       </div>
     </section>
