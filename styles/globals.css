@@ -152,7 +152,7 @@ h6 {
   animation: rotate5 8s ease infinite alternate;
 }
 
-@media screen and (min-width: 960px) {
+/* @media screen and (min-width: 960px) {
   
   #blur-1 {
       animation: blur-change1 8s ease infinite alternate;
@@ -161,7 +161,7 @@ h6 {
   #blur-2 {
       animation: blur-change2 6s ease infinite alternate;
   }
-}
+} */
 
 /* FOR SQUARES */
 
