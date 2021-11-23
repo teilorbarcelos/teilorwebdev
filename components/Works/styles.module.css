@@ -20,13 +20,14 @@
   max-width: 720px;
   border-radius: 4px;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: -140%;
+  left: 25%;
 
   transition: 1s ease-in-out;
 
-  transform: translate(-50%, -50%) translate3d(-1000px, 0, 0) skew(90deg);
+  transform: translateX(-1000px) skew(90deg);
   width: 0;
+  height: 0;
   opacity: 0;
 }
 
@@ -51,8 +52,9 @@
   }
 
   .workImg.show {
-    transform: translate(-45%, -50%) translate3d(0, 0, 0);
+    transform: translateX(0) skew(0);
     width: 720px;
+    height: 640px;
     opacity: 1;
   }
 }

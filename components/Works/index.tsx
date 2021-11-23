@@ -63,7 +63,7 @@ export default function Works() {
                     >{work.name} &#8599;</h3>
                   </a>
                 </Link>
-                <div className={`${styles.workImg} ${(showWork == work.id) ? styles.show : ''}`}>
+                <div className={`${styles.workImg} ${(showWork === work.id) ? styles.show : ''}`}>
                   <Image
                     src={work.img}
                     alt={`${work.name} image`}
