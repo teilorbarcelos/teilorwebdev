@@ -67,6 +67,7 @@ export default function Works() {
                   <Image
                     src={work.img}
                     alt={`${work.name} image`}
+                    priority
                   />
                 </div>
               </div>
