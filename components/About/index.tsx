@@ -33,9 +33,13 @@ export default function About() {
       </div>
       <div className={`${styles.aboutItem} ${globals.flex}`}>
         <h4 className={`${styles.aboutMe} ${globals.mask}`}>Hello, I'm Teilor Souza Barcelos, Brazilian, resident in Criciúma - SC, a truly passionate about technology, web development & front and back-end programming.</h4>
-        <div data-aos="fade-left" className={styles.myPhoto}>
+        <div className={styles.myPhoto}>
 
-          <img title="Hello!" className={styles.img} src='https://avatars.githubusercontent.com/u/80414833?v=4' />
+          <img
+            title="Hello!"
+            className={styles.img}
+            src='https://github.com/teilorbarcelos.png'
+          />
 
         </div>
       </div>

@@ -5,7 +5,7 @@ import Logo from '../../components/svg/Logo'
 export default function Footer() {
 
   return (
-    <footer data-aos="fade-in" className={`${styles.footer} ${globals.py4}`}>
+    <footer className={`${styles.footer} ${globals.py4}`}>
 
       <div className={`${styles.bbGray2} ${globals.my5} ${styles.mobile}`}></div>
 
@@ -14,7 +14,7 @@ export default function Footer() {
 
       <div className={`${styles.bbGray2} ${globals.my5}`}></div>
 
-      <div data-aos="fade-up" className={globals.my5}>
+      <div className={globals.my5}>
 
         <Logo />
 

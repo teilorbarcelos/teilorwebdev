@@ -10,8 +10,8 @@ export default function Contact() {
   return (
     <section className={`${styles.get} ${globals.mt9}`} id="get">
       <h2>Get in touch</h2>
-      <h3 data-aos="fade-left" className={`${styles.email} ${globals.mt6} ${globals.mask}`}>tsb.developer87@gmail.com</h3>
-      <div data-aos="fade-right" className={styles.folowMe}>
+      <h3 className={`${styles.email} ${globals.mt6} ${globals.mask}`}>tsb.developer87@gmail.com</h3>
+      <div className={styles.folowMe}>
         <div className={`${styles.folowMeItem} ${globals.py4}`}>
           <Link href="https://github.com/teilorbarcelos">
             <a target="_blank">
